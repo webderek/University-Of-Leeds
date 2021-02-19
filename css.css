@@ -1,0 +1,508 @@
+body{
+    margin: 0;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding:0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    max-height: 1px;
+    background-color: #333333;
+}
+.main--line{
+    width: 385px;
+    margin-top: 20px;
+    min-height: 1px;
+    max-height: 1px;
+}
+
+
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+button{
+    border:0;
+}
+
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+
+html {
+    overflow: hidden;
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+/*templates*/
+.flex{
+    display: flex;
+}
+
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-column-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.flex-between{
+display:flex;
+justify-content: space-between;
+}
+
+.flex-column-between{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+
+.flex-align-center{
+    display: flex;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.text-white{
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.roboto{
+    font-family: Roboto;
+}
+/*templates*/
+
+
+
+
+
+.logo{
+    padding: 30px 0;
+}
+
+/*left menu section */
+
+.wrapper--left {
+    width: 100%;
+    max-width: 465px;
+    margin:0;
+    padding: 0;
+    height: 100vh;
+}
+
+.menu--left{
+    background-color: #212121;
+}
+
+.menu--text{
+    color: #555555;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px 0 ;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+
+.menu__item--text{
+    color: white;
+    padding-left: 18px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/*dropdown*/
+.dropdown--wrap{
+width: 100%;
+height: 100%;
+background-color: #333333;
+width: 385px;
+min-height: 60px;
+max-height: 60px;
+padding-left: 20px;
+border-radius: 10px;
+}
+
+
+.menu--block{
+    width: 100%;
+    height: 100%;
+}
+
+.menu__item{
+    width: 100%;
+    width: 385px;
+    height: 90px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.menu--link{
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.menu--link:hover{
+    background-color: #B31B1B;
+}
+
+.menu--link:hover path{
+    fill: white;
+    
+}
+
+.menu__svg{
+    margin-left: 20px;
+}
+
+.main--nav__link{
+    padding-left: 18px;
+}
+
+
+
+/*btn #b31b1b */
+
+
+
+
+/*left menu section */
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+} 
+
+/* right menu*/
+.wrapper--rigth{
+    width: 100%;
+    max-width: 142px;
+}
+
+.menu--right{
+    background-color: #212121;
+}
+
+.menu--btn{
+    height: 100%;
+    width: 100%;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 10px;
+    background-color: #333333;
+    transition: .5s ease;
+}
+.menu--btn:hover path{
+    fill:#B31B1B;
+}
+
+.menu--btn:hover{
+    cursor: pointer;
+}
+
+/* .floor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+} */
+
+.floor--wrap{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    max-height: calc(85px*4);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.menu__floor{
+    width: 100%;
+    height: 100%;
+}
+
+.menu__floor--link{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #333333;
+    transition: .5s ease;
+}
+
+
+.menu__floor--link:hover{
+    background-color: #B31B1B;
+    
+}
+
+.margin{
+    margin-top: 25px;
+}
+
+.dot--top{
+    margin-top: 15px
+    
+}
+
+.dot--bottom{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.wrapper--center{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.svg--container{
+    width: 100%;
+    height: 100%;
+}
+#svg{
+    object-fit: none;
+    width: 100%;
+    height: 100%;
+}
+.zoom{
+    z-index: 1;
+}
+
+
+.zoom-btn{
+    bottom: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 100%;
+    
+    background-color: #333333;
+    color: white;
+    font-size: 33px;
+    font-weight: 100;
+    transform: .5s ease;
+}
+#zoom-out{left: 50%;margin-left: 10px;}
+#zoom-in{right: 50%; margin-right: 10px;}
+.zoom-btn:hover{
+    background-color: #B31B1B;
+}
+
+
+
+
+
+/*meeting rooms menu*/
+.meeting__dropdown{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.floor--number{
+width: 100%;
+height: 100%;
+background-color: #B31B1B;
+width: 349px;
+min-height: 30px;
+max-height: 30px;
+border-radius: 5px;
+padding-left: 20px;
+font-size: 14px;
+padding-top: 7px;
+font-weight: 500;
+}
+
+.room{
+    width: 100%;
+    height: 100%;
+    width: 350px;
+    height: 143px;
+    
+}
+
+.room--block{
+width: 100%;
+height: 100%;
+height: 143px;
+align-items: center;
+}
+
+.room__name{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.room__time{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.room__time--img{
+    padding-right: 10px;
+    
+    
+}
+
+.room__meeting--name{
+    font-size: 14px;
+}
+
+.room__creator{
+    font-size: 14px;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.room__btn{
+width: 100%;
+height: 100%;
+height: 143px;
+}
+
+.room__info{
+    width: 100%;
+    height: 100%;
+    height: 101px;
+}
+
+.room__container{
+    width: 100%;
+    height: 100%;
+    height: 143px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.room__item{
+    margin-top: 24px;
+    width: 100%;
+    height: 100%;
+    width: 60px;
+    height: 80px;
+    text-align: center;
+}
+
+.room--btn{
+    width: 100%;
+    height: 100%;
+    max-width: 60px;
+    max-height: 60px;
+    background-color: #333333;
+    border-radius: 100%;
+    transition: .5s ease;
+}
+
+.room--btn:hover{
+    background-color: #B31B1B;
+}
+
+.room__img--name{
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.room--two{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.room--line {
+    width: 100%;
+    height: 100%;
+    max-width: 349px;
+    min-height: 1px;
+    max-height: 1px;
+    margin:0;
+}
+
+.floor--line{
+    width: 100%;
+    height: 100%;
+    max-width: 349px;
+    min-height: 1px;
+    max-height: 1px;
+    margin:0;
+    margin-bottom: 20px;
+}
+
+.wrapper--dropdown{
+    margin-top:10px;
+    height: 100%;
+    max-height: 40%;
+}

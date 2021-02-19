@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WayFinder</title>
+    <link rel="stylesheet" href="reset.css" type="text/css" />
+    <link rel="stylesheet" href="css.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+    <section class="wrapper--left menu--left text-white flex-column-center roboto">
+        <a href="" class="logo"><img src="images/logo_name.svg" alt="" class=""></a>
+        <hr class="main--line">
+        <p class="menu--text uppercase">building</p>
+        
+
+
+        <div class="dropdown--wrap flex-align-center">
+            <div class="dropdown__field flex-between flex-align-center">
+                <p class="dropdown__field--text"> University Of Leeds </p>    
+            </div>
+            
+        </div>
+
+        <hr class="main--line">
+        <nav class="menu flex-column-center  ">
+            <ul class="menu--block flex-column-center">
+                <li class="menu__item ">
+                <button  class="menu--link flex-align-center uppercase roboto">
+                    <svg class="menu__svg" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                        <path d="M18 1C9.16343 1 2 8.16343 2 17C2 25.8365 9.16343 32.9999 18 32.9999C26.8365 32.9999 33.9999 25.8365 33.9999 17C33.9906 8.16738 26.8326 1.00944 18 1ZM18 30.7142C10.4258 30.7142 4.28569 24.5742 4.28569 17C4.28569 9.42578 10.4258 3.28569 18 3.28569C25.5742 3.28569 31.7142 9.42578 31.7142 17C31.7061 24.5708 25.5708 30.7061 18 30.7142Z" fill="#555555"/>
+                        <path d="M25.7816 8.70514C25.4606 8.54523 25.0833 8.54523 24.7623 8.70514L15.0651 13.5531C14.8435 13.6638 14.6638 13.8435 14.5531 14.0652L9.70513 23.7623C9.42368 24.3273 9.6535 25.0134 10.2184 25.2948C10.5394 25.4548 10.9167 25.4548 11.2377 25.2948L20.9348 20.4468C21.1565 20.3361 21.3362 20.1565 21.4468 19.9348L26.2949 10.2377C26.5763 9.67277 26.3466 8.98666 25.7816 8.70514ZM13.2834 21.7165L15.8891 16.5051L18.4949 19.1108L13.2834 21.7165ZM20.1108 17.4949L17.5051 14.8891L22.7166 12.2834L20.1108 17.4949Z" fill="#555555"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_d" x="0" y="0" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                        </filter>
+                        </defs>
+                        </svg>
+                        <p class="menu__item--text"> map </p>
+                </button> 
+                </li>
+
+                <li class="menu__item">
+                    <button href="#" class="menu--link meeting--btn flex-align-center uppercase roboto">
+                        <svg class="menu__svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M31.9619 23.0376C31.961 23.0328 31.9602 23.0281 31.9594 23.0234L30.591 15.53C30.3609 14.1722 29.196 13.1875 27.818 13.1875H22.5564V12.1875C22.5564 9.567 21.0185 7.30069 18.7925 6.24963C19.3875 5.58569 19.7502 4.7095 19.7502 3.75C19.7502 1.68225 18.0679 0 16.0002 0C13.9324 0 12.2502 1.68225 12.2502 3.75C12.2502 4.70956 12.6128 5.58575 13.2078 6.24963C10.9818 7.30069 9.43766 9.567 9.43766 12.1875V13.1875H4.18228C2.80447 13.1875 1.6396 14.1721 1.40941 15.5297L0.0408451 23.0233C0.0399701 23.0281 0.0391576 23.0328 0.0383451 23.0376C-0.229405 24.6439 0.974595 26.1398 2.59553 26.2981C2.17435 27.1718 1.93772 28.1523 1.93772 29.1875V31.0625C1.93772 31.5802 2.35747 32 2.87522 32H14.1252C14.643 32 15.0565 31.5802 15.0565 31.0625V29.1875C15.0565 28.1579 14.8288 27.1763 14.412 26.3062H17.5885C17.1716 27.1763 16.9377 28.1579 16.9377 29.1875V31.0625C16.9377 31.5802 17.3575 32 17.8752 32H29.1252C29.643 32 30.0565 31.5802 30.0565 31.0625V29.1875C30.0565 28.1523 29.8261 27.1718 29.4049 26.2981C31.0257 26.1397 32.2295 24.6437 31.9619 23.0376ZM16.0002 1.875C17.034 1.875 17.8752 2.71613 17.8752 3.75C17.8752 4.78387 17.034 5.625 16.0002 5.625C14.9663 5.625 14.1252 4.78387 14.1252 3.75C14.1252 2.71613 14.9663 1.875 16.0002 1.875ZM11.3065 12.1875C11.3065 9.60281 13.4155 7.5 16.0002 7.5C18.5849 7.5 20.6877 9.60281 20.6877 12.1875V13.1875H11.3065V12.1875ZM13.1877 30.125H3.80641V29.1875C3.80641 26.5683 5.91547 24.4375 8.50016 24.4375C11.0848 24.4375 13.1877 26.5683 13.1877 29.1875V30.125ZM6.62516 20.6875C6.62516 19.6536 7.46629 18.8125 8.50016 18.8125C9.53404 18.8125 10.3752 19.6536 10.3752 20.6875C10.3752 21.7214 9.53404 22.5625 8.50016 22.5625C7.46629 22.5625 6.62516 21.7214 6.62516 20.6875ZM28.1877 30.125H18.8064V29.1875C18.8064 26.5683 20.9155 24.4375 23.5002 24.4375C26.0849 24.4375 28.1877 26.5683 28.1877 29.1875V30.125ZM21.6252 20.6875C21.6252 19.6536 22.4663 18.8125 23.5002 18.8125C24.534 18.8125 25.3752 19.6536 25.3752 20.6875C25.3752 21.7214 24.534 22.5625 23.5002 22.5625C22.4663 22.5625 21.6252 21.7214 21.6252 20.6875ZM29.1251 24.4375H28.0698C27.5513 23.929 26.9502 23.5061 26.2889 23.1914C26.886 22.5269 27.2501 21.6491 27.2501 20.6875C27.2501 18.6198 25.5679 16.9375 23.5001 16.9375C21.4324 16.9375 19.7501 18.6198 19.7501 20.6875C19.7501 21.6491 20.1142 22.5269 20.7114 23.1914C20.05 23.5061 19.4489 23.929 18.9304 24.4375H13.0697C12.5512 23.929 11.95 23.5061 11.2887 23.1914C11.8859 22.5269 12.25 21.6491 12.25 20.6875C12.25 18.6198 10.5677 16.9375 8.49997 16.9375C6.43222 16.9375 4.74997 18.6198 4.74997 20.6875C4.74997 21.6491 5.1141 22.5269 5.71122 23.1914C5.05016 23.5061 4.44903 23.929 3.93053 24.4375H2.8751C2.28635 24.4375 1.79772 23.9102 1.88685 23.3519L3.25503 15.8602C3.25591 15.8554 3.25672 15.8507 3.25753 15.8459C3.33322 15.3919 3.7221 15.0625 4.18228 15.0625C5.13003 15.0625 27.334 15.0625 27.818 15.0625C28.2782 15.0625 28.6672 15.3919 28.7428 15.8459C28.7436 15.8506 28.7444 15.8554 28.7453 15.8601L30.1132 23.3516C30.2025 23.9096 29.7143 24.4375 29.1251 24.4375Z" fill="#555555"/>
+                        </svg>
+                        <p class="menu__item--text">meeting rooms</p>
+                    
+                    </button> 
+                </li>
+            <hr class="main--line">
+
+
+        <div class="wrapper--dropdown hidden">
+            <div class="meeting__dropdown flex-column-center">
+                <div class="floor--number">
+                    <p class="floor--text uppercase">Floor 1</p>
+                </div>
+                <div class="room">
+                    <div class="room--block room--one flex-between">
+                        <div class="room__info ">
+                            <div class="room__name">Mtg Room #1</div>
+                            <div class="room__time"> <img class="room__time--img" src="images/red.svg" alt=""> 13:00 - 18:00</div>
+                            <div class="room__meeting--name">Meeting Name</div>
+                            <div class="room__creator">Organiser Name</div>
+                        </div>
+                        <div class="room__btn">
+                            <ul class="room__container">
+                                <li class="room__item">
+                                    <button class="room--btn">
+                                        <img src="images/on-map.svg" alt="">
+                                    </button>
+                                    <p class="room__img--name roboto">On Map</p>
+                                </li>
+                            </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+                <hr class="room--line">
+                <div class="room">
+                    <div class="room--two room--block">
+                        <div class="room--block room--one flex-between">
+                            <div class="room__info ">
+                                <div class="room__name">Mtg Room #2</div>
+                                <div class="room__time "> <img class="room__time--img" src="images/green.svg" alt=""> 13:00 - 18:00</div>
+                                <div class="room__meeting--name">Meeting Name</div>
+                                <div class="room__creator">Organiser Name</div>
+                            </div>
+                            <div class="room__btn">
+                                <ul class="room__container">
+                                    <li class="room__item">
+                                        <button class="room--btn">
+                                            <img src="images/on-map.svg" alt="">
+                                        </button>
+                                        <p class="room__img--name roboto">On Map</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="floor--line">
+                <div class="floor--number">
+                    <p class="floor--text uppercase">Floor 2</p>
+                </div>
+                <div class="room">
+                    <div class="room--block room--one flex-between">
+                        <div class="room__info ">
+                            <div class="room__name">Mtg Room #1</div>
+                            <div class="room__time"> <img class="room__time--img" src="images/red.svg" alt=""> 13:00 - 18:00</div>
+                            <div class="room__meeting--name">Meeting Name</div>
+                            <div class="room__creator">Organiser Name</div>
+                        </div>
+                        <div class="room__btn">
+                            <ul class="room__container">
+                                <li class="room__item">
+                                    <button class="room--btn">
+                                        <img src="images/on-map.svg" alt="">
+                                    </button>
+                                    <p class="room__img--name roboto">On Map</p>
+                                </li>
+                            </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+                <hr class="room--line">
+                <div class="room">
+                    <div class="room--two room--block">
+                        <div class="room--block room--one flex-between">
+                            <div class="room__info ">
+                                <div class="room__name">Mtg Room #2</div>
+                                <div class="room__time "> <img class="room__time--img" src="images/green.svg" alt=""> 13:00 - 18:00</div>
+                                <div class="room__meeting--name">Meeting Name</div>
+                                <div class="room__creator">Organiser Name</div>
+                            </div>
+                            <div class="room__btn">
+                                <ul class="room__container">
+                                    <li class="room__item">
+                                        <button class="room--btn">
+                                            <img src="images/on-map.svg" alt="">
+                                        </button>
+                                        <p class="room__img--name roboto">On Map</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <hr class="floor--line">
+                <div class="floor--number">
+                    <p class="floor--text uppercase">Floor 3</p>
+                </div>
+                <div class="room">
+                    <div class="room--block room--one flex-between">
+                        <div class="room__info ">
+                            <div class="room__name">Mtg Room #1</div>
+                            <div class="room__time"> <img class="room__time--img" src="images/red.svg" alt=""> 13:00 - 18:00</div>
+                            <div class="room__meeting--name">Meeting Name</div>
+                            <div class="room__creator">Organiser Name</div>
+                        </div>
+                        <div class="room__btn">
+                            <ul class="room__container">
+                                <li class="room__item">
+                                    <button class="room--btn">
+                                        <img src="images/on-map.svg" alt="">
+                                    </button>
+                                    <p class="room__img--name roboto">On Map</p>
+                                </li>
+                            </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+                <hr class="room--line">
+                <div class="room">
+                    <div class="room--two room--block">
+                        <div class="room--block room--one flex-between">
+                            <div class="room__info ">
+                                <div class="room__name">Mtg Room #2</div>
+                                <div class="room__time "> <img class="room__time--img" src="images/green.svg" alt=""> 13:00 - 18:00</div>
+                                <div class="room__meeting--name">Meeting Name</div>
+                                <div class="room__creator">Organiser Name</div>
+                            </div>
+                            <div class="room__btn">
+                                <ul class="room__container">
+                                    <li class="room__item">
+                                        <button class="room--btn">
+                                            <img src="images/on-map.svg" alt="">
+                                        </button>
+                                        <p class="room__img--name roboto">On Map</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        </ul>
+        </nav>
+        
+    </section>
+
+    <section class="wrapper--center menu--center text-white roboto ">
+    
+<div class="svg--container">
+    <object class="svg " type="image/svg+xml" data="images/Leeds-wayfinder-v1.0-bw/no color ___ ULNEQ-ADP-00-B1-DR-A-0001.svg" width="100%" height="100%"  >
+    </object> 
+<object  class="svg hidden" type="image/svg+xml" data="images/Leeds-wayfinder-v1.0-bw/no color _____ ULNEQ-ADP-00-05-DR-A-0007 - School Department Diagram - Fifth Floor.svg" width="100%" height="100%"  >
+</object> 
+<object class="svg hidden" type="image/svg+xml" data="images/Leeds-wayfinder-v1.0-bw/no color ____ ULNEQ-ADP-00-04-DR-A-0006 - School Department Diagram - Fourth Floor-JAL.svg" width="100%" height="100%"  >
+</object> 
+<object  class="svg hidden" type="image/svg+xml" data="images/Leeds-wayfinder-v1.0-bw/no color ____ ULNEQ-ADP-00-03-DR-A-0005 - School Department Diagram - Third Floor-JAL.svg" width="100%" height="100%"  >
+    
+</object> 
+<object  class="svg hidden" type="image/svg+xml" data="images/Leeds-wayfinder-v1.0-bw/no color ___ ULNEQ-ADP-00-02-DR-A-0004 - School Department Diagram - Second Floor-JAL.svg" width="100%" height="100%"  >
+    
+</object> 
+<object class="svg hidden" type="image/svg+xml" data="images/Leeds-wayfinder-v1.0-bw/no color ___ ULNEQ-ADP-00-01-DR-A-0003 - School Department Diagram - First Floor-JAL.svg" width="100%" height="100%"  >
+    
+</object> 
+<object  class="svg hidden" type="image/svg+xml" data="images/Leeds-wayfinder-v1.0-bw/no color  __  ULNEQ-ADP-00-00-DR-A-0002 - School Department Diagram - Ground Floor-JAL.svg" width="100%" height="100%"  >
+   
+</object> 
+
+</div>
+<!-- <div class="zoom flex-align-center"> -->
+    <button id="zoom-out" class="zoom-btn roboto"> — </button>
+    <button id="zoom-in" class="zoom-btn roboto"> +  </button>
+<!-- </div> -->
+        </section> 
+
+
+
+    <section class="wrapper--rigth menu--right text-white flex-column-center roboto ">
+        
+        <p class="menu--text uppercase">floor</p>
+        <nav class="menu__floor flex-column-center ">
+            <button class="menu--btn menu--up"> 
+                <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.42899 0.829063L0.236257 8.02418C-0.0786632 8.3399 -0.0786632 8.85141 0.236257 9.16793C0.551178 9.48365 1.06269 9.48365 1.37761 9.16793L7.99964 2.54352L14.6217 9.16713C14.9366 9.48285 15.4481 9.48285 15.7638 9.16713C16.0787 8.85141 16.0787 8.3391 15.7638 8.02339L8.57114 0.828265C8.25948 0.517398 7.73993 0.517398 7.42899 0.829063Z" fill="#555555"/>
+                    </svg>
+            </button>
+            
+            <svg class="dot--top" width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_i)">
+                <circle cx="2.5" cy="2.5" r="2.5" fill="black" fill-opacity="0.3"/>
+                </g>
+                <defs>
+                <filter id="filter0_i" x="0" y="-1" width="5" height="6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="-1"/>
+                <feGaussianBlur stdDeviation="0.5"/>
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0"/>
+                <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+                </filter>
+                </defs>
+                </svg>
+                
+                <div class="floor--wrap">
+                <ul class="floor ">
+                    <li class="menu__floor-item flex-center "><button class="menu__floor--link">07</button></li>
+                    <li class="menu__floor-item flex-center margin "><button  class="menu__floor--link">06</button></li>
+                    <li class="menu__floor-item flex-center margin "><button  class="menu__floor--link">05</button></li>
+                    <li class="menu__floor-item flex-center margin"><button  class="menu__floor--link">04</button></li>
+                    <li class="menu__floor-item flex-center margin"><button class="menu__floor--link">03</button></li>
+                    <li class="menu__floor-item flex-center margin"><button class="menu__floor--link">02</button></li>
+                    <li class="menu__floor-item flex-center margin"><button class="menu__floor--link">01</button></li>
+                </ul>
+            </div>
+                <svg class="dot--bottom" width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i)">
+                    <circle cx="2.5" cy="2.5" r="2.5" fill="black" fill-opacity="0.3"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_i" x="0" y="-1" width="5" height="6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="-1"/>
+                    <feGaussianBlur stdDeviation="0.5"/>
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0"/>
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+                    </filter>
+                    </defs>
+                    </svg>
+
+                <button class="menu--btn menu--down">
+                    <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.42899 9.17094L0.236257 1.97582C-0.0786632 1.6601 -0.0786632 1.14859 0.236257 0.832072C0.551178 0.516354 1.06269 0.516354 1.37761 0.832072L7.99964 7.45648L14.6217 0.832869C14.9366 0.517152 15.4481 0.517152 15.7638 0.832869C16.0787 1.14859 16.0787 1.6609 15.7638 1.97661L8.57114 9.17173C8.25948 9.4826 7.73993 9.4826 7.42899 9.17094Z" fill="#555555"/>
+                        </svg>
+                        
+                </button>
+        </nav>
+
+
+
+    </section>
+
+
+
+    
+</div>
+</body>
+<script src="dropdown.js" async></script>
+<script src="meetingRoom.js" async></script>
+    <script src="floor.js" async></script>
+    <script src="addFloorSvg.js" async></script>
+    <script src="zoom.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.5.0/dist/svg-pan-zoom.min.js" ></script>
+
+    
+</html>
